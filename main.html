@@ -22,7 +22,12 @@
 		<label for="gender_f">Female</label><br>
 
 		<label for="cars">Car Brands:</label><br>
-		<input type="select" id="cars" name="cars" placeholder="--Please choose an option--" required><br>
+		<select id="cars" name="cars" required>
+			<option value="">--Please choose an option--</option>
+			<option value="brand1">BWM</option>
+			<option value="brand2">Porsche</option>
+			<option value="brand3">Mercedes</option>
+		</select><br>
 
 		<label for="age">Age:</label><br>
 		<input type="number" id="age" required name="age" placeholder="Age"><br>
